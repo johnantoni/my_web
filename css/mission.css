@@ -1,12 +1,19 @@
 .block {
-  background-color:#121212;
+  background-color:#FFFFFF;
   height:70px;
 }
 
 .block header {
-  color:#FFFFFF;
+  color:#000000;
   text-align:right;
   font-size:50px;
   padding-right:80px;
   text-shadow: 2px 2px 3px rgba(150, 151, 151, 1);
+}
+
+.border-bottom {
+  border-bottom: 1px solid #CCCCCC;
+  width:1080px;
+  margin-left:150px;
+  padding-top:50px;
 }

@@ -66,19 +66,9 @@
 
 }
 
-.quote {
-    background-color:#121212;
-    height:75px;
-}
-
-.quote blockquote {
-    color:#FFFFFF;
-    text-align:center;
-    padding-top:25px;
-}
-
 .profile {
-    float:left;
+    float:top;
+    text-align: center;
 }
 
 .profile .me {
@@ -90,10 +80,12 @@
 
 .profile li {
     list-style-type: none;
+    display:inline;
 }
 
 .feed {
-    float:right;
+    float:bottom;
+    text-align: center;
 }
 
 .feed ul li {
