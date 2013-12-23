@@ -1,0 +1,11 @@
+.block {
+  background-color:#121212;
+  height:70px;
+}
+
+.block header {
+  color:#FFFFFF;
+  text-align:right;
+  font-size:50px;
+  padding-right:80px;
+}
