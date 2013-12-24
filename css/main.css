@@ -2,20 +2,29 @@
     display:block;
     margin:0 auto;
     width:980px;
+    position: relative;
+    vertical-align: top;
 }
 
 .block {
     display:block;
     width:100%;
+    position: relative;
+    margin-top: 20px
 }
 
 .nav {
+    height: 300px;
+    position: relative;
     background-image:url('img/toronto.jpg');
 }
 
 .logo {
+    margin: auto;
+    display: block;
     min-height: 200px;
     position:relative;
+    padding-top: 25px;
 }
 
 .top-left {
@@ -67,8 +76,10 @@
 }
 
 .profile {
-    float:top;
+    display: inline-block;
     text-align: center;
+    vertical-align: top;
+    width: 45%;
 }
 
 .profile .me {
@@ -84,8 +95,11 @@
 }
 
 .feed {
-    float:bottom;
+    display: inline-block;
     text-align: center;
+    vertical-align: top;
+    width: 45%;
+    float: right;
 }
 
 .feed ul li {
