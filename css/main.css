@@ -14,9 +14,14 @@
 }
 
 .nav {
-    height: 300px;
-    position: relative;
-    background-image:url('img/toronto.jpg');
+  height: 300px;
+  position: relative;
+  background: transparent url('../img/toronto.jpg') 0 0 no-repeat;
+}
+
+.nav a {
+  background-color: white;
+  padding: 5px;
 }
 
 .logo {
@@ -33,7 +38,7 @@
     left:0;
     display:block;
     text-decoration:none;
-    border-top:1px solid #000000;
+    /*border-top:1px solid #000000;*/
     border-bottom:1px solid #000000;
     color:#000000;
 }
@@ -45,7 +50,7 @@
     display:block;
     text-decoration:none;
     border-top:1px solid #000000;
-    border-bottom:1px solid #000000;
+    /*border-bottom:1px solid #000000;*/
     color:#000000;
 }
 
@@ -55,7 +60,7 @@
     right:0;
     display:block;
     text-decoration:none;
-    border-top:1px solid #000000;
+    /*border-top:1px solid #000000;*/
     border-bottom:1px solid #000000;
     color:#000000;
 }
@@ -67,7 +72,7 @@
     display:block;
     text-decoration:none;
     border-top:1px solid #000000;
-    border-bottom:1px solid #000000;
+    /*border-bottom:1px solid #000000;*/
     color:#000000;
 }
 
